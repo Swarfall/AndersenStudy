@@ -39,7 +39,7 @@ class AnimationViewController: UIViewController {
 //        }, completion: nil)
         UIView.animate(withDuration: 3.0, animations: {
             self.greenView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 1/2).isActive = false
-            self.greenView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 100).isActive = true
+            self.greenView.widthAnchor.constraint(equalToConstant: 100).isActive = true
         }, completion: nil)
     }
 }
