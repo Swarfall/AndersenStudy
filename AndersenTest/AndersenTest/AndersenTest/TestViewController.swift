@@ -9,9 +9,8 @@
 import UIKit
 
 class TestViewController: UIViewController {
-    
 
-    var childView = UILabel()
+    var childView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +19,4 @@ class TestViewController: UIViewController {
         childView.backgroundColor = .white
         view.addSubview(childView)
     }
-    
-
-
-    
-
 }
