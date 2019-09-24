@@ -9,7 +9,8 @@
 import UIKit
 
 class LifecycleViewController: UIViewController {
-
+    
+    
     @IBOutlet weak var someLabel: UILabel!
     
     override class func awakeFromNib() {
@@ -73,5 +74,9 @@ class LifecycleViewController: UIViewController {
     @IBAction func didTapPushButton(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "ConstraintViewController") as! ConstraintViewController
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func someFunc() {
+        
     }
 }
