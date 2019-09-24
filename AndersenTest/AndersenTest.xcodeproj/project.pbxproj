@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84077E0C233A02A60000C8A3 /* LifecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84077E0B233A02A60000C8A3 /* LifecycleViewController.swift */; };
+		84077E0E233A07DF0000C8A3 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84077E0D233A07DF0000C8A3 /* XibView.xib */; };
+		84077E10233A08470000C8A3 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84077E0F233A08470000C8A3 /* XibView.swift */; };
 		842D1D2623324DCA00ED7506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D1D2523324DCA00ED7506 /* AppDelegate.swift */; };
 		842D1D2823324DCA00ED7506 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D1D2723324DCA00ED7506 /* AViewController.swift */; };
 		842D1D2B23324DCA00ED7506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D1D2923324DCA00ED7506 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84077E0B233A02A60000C8A3 /* LifecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleViewController.swift; sourceTree = "<group>"; };
+		84077E0D233A07DF0000C8A3 /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		84077E0F233A08470000C8A3 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		842D1D2223324DCA00ED7506 /* AndersenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndersenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D1D2523324DCA00ED7506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842D1D2723324DCA00ED7506 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84077E0A233A02770000C8A3 /* LifeCycleVC */ = {
+			isa = PBXGroup;
+			children = (
+				84077E0B233A02A60000C8A3 /* LifecycleViewController.swift */,
+				84077E0D233A07DF0000C8A3 /* XibView.xib */,
+				84077E0F233A08470000C8A3 /* XibView.swift */,
+			);
+			path = LifeCycleVC;
+			sourceTree = "<group>";
+		};
 		842D1D1923324DC900ED7506 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +80,7 @@
 			children = (
 				845E39EB2338B0A3001111C3 /* SeguePush */,
 				845E39EC2338B0C0001111C3 /* Constraint */,
+				84077E0A233A02770000C8A3 /* LifeCycleVC */,
 				842D1D2523324DCA00ED7506 /* AppDelegate.swift */,
 				842D1D2C23324DCC00ED7506 /* Assets.xcassets */,
 				842D1D2E23324DCC00ED7506 /* LaunchScreen.storyboard */,
@@ -151,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842D1D3023324DCC00ED7506 /* LaunchScreen.storyboard in Resources */,
+				84077E0E233A07DF0000C8A3 /* XibView.xib in Resources */,
 				842D1D2D23324DCC00ED7506 /* Assets.xcassets in Resources */,
 				845E39EA2338B08C001111C3 /* Constraine.storyboard in Resources */,
 				842D1D2B23324DCA00ED7506 /* Main.storyboard in Resources */,
@@ -165,6 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				842D1D2823324DCA00ED7506 /* AViewController.swift in Sources */,
+				84077E10233A08470000C8A3 /* XibView.swift in Sources */,
+				84077E0C233A02A60000C8A3 /* LifecycleViewController.swift in Sources */,
 				845E39EE2338BE9C001111C3 /* ConstraintViewController.swift in Sources */,
 				845E39F02338C25C001111C3 /* AnimationViewController.swift in Sources */,
 				842D1D3823324E0B00ED7506 /* BViewController.swift in Sources */,
