@@ -47,6 +47,4 @@ class ItemCell: UITableViewCell {
         buyButton.setTitle("Add", for: .normal)
         delegate?.toBuyList(index: index!)
     }
-    
-    
 }

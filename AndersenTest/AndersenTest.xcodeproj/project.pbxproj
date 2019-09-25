@@ -60,6 +60,7 @@
 		849BF296233B4F5600B33C64 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
 		849BF298233B504300B33C64 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		849BF29A233B56EE00B33C64 /* ExtensionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionProtocol.swift; sourceTree = "<group>"; };
+		84F63D11233B82340092D23D /* ExtensionProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ExtensionProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 				842D1D2C23324DCC00ED7506 /* Assets.xcassets */,
 				842D1D2E23324DCC00ED7506 /* LaunchScreen.storyboard */,
 				842D1D3123324DCC00ED7506 /* Info.plist */,
+				84F63D11233B82340092D23D /* ExtensionProtocol.playground */,
 			);
 			path = AndersenTest;
 			sourceTree = "<group>";
