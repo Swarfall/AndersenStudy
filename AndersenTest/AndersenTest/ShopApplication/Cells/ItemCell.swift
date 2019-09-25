@@ -12,6 +12,12 @@ protocol ItemCellDelegate: class {
     func toBuyList(index: Int)
 }
 
+extension ItemCellDelegate {
+    func toBuyList(index: Int) {
+        print(index)
+    }
+}
+
 class ItemCell: UITableViewCell {
 
     @IBOutlet weak var itemImageView: UIImageView!

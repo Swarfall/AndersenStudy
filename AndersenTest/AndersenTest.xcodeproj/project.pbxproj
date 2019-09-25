@@ -27,6 +27,10 @@
 		846BA6A7233A77BD0073479F /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BA6A6233A77BC0073479F /* BuyViewController.swift */; };
 		846BA6AA233A7A420073479F /* BuyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BA6A8233A7A420073479F /* BuyCell.swift */; };
 		846BA6AB233A7A420073479F /* BuyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BA6A9233A7A420073479F /* BuyCell.xib */; };
+		849BF295233B4EED00B33C64 /* Extension.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BF294233B4EED00B33C64 /* Extension.storyboard */; };
+		849BF297233B4F5600B33C64 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BF296233B4F5600B33C64 /* ExtensionViewController.swift */; };
+		849BF299233B504300B33C64 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BF298233B504300B33C64 /* StringExtension.swift */; };
+		849BF29B233B56EE00B33C64 /* ExtensionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BF29A233B56EE00B33C64 /* ExtensionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		846BA6A6233A77BC0073479F /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		846BA6A8233A7A420073479F /* BuyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCell.swift; sourceTree = "<group>"; };
 		846BA6A9233A7A420073479F /* BuyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyCell.xib; sourceTree = "<group>"; };
+		849BF294233B4EED00B33C64 /* Extension.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Extension.storyboard; sourceTree = "<group>"; };
+		849BF296233B4F5600B33C64 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		849BF298233B504300B33C64 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		849BF29A233B56EE00B33C64 /* ExtensionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		842D1D2423324DCA00ED7506 /* AndersenTest */ = {
 			isa = PBXGroup;
 			children = (
+				849BF293233B4EDA00B33C64 /* Extension */,
 				845E39EB2338B0A3001111C3 /* SeguePush */,
 				845E39EC2338B0C0001111C3 /* Constraint */,
 				84077E0A233A02770000C8A3 /* LifeCycleVC */,
@@ -165,6 +174,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		849BF293233B4EDA00B33C64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				849BF296233B4F5600B33C64 /* ExtensionViewController.swift */,
+				849BF298233B504300B33C64 /* StringExtension.swift */,
+				849BF29A233B56EE00B33C64 /* ExtensionProtocol.swift */,
+				849BF294233B4EED00B33C64 /* Extension.storyboard */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842D1D3023324DCC00ED7506 /* LaunchScreen.storyboard in Resources */,
+				849BF295233B4EED00B33C64 /* Extension.storyboard in Resources */,
 				84077E0E233A07DF0000C8A3 /* XibView.xib in Resources */,
 				846BA699233A52B90073479F /* Shop.storyboard in Resources */,
 				842D1D2D23324DCC00ED7506 /* Assets.xcassets in Resources */,
@@ -244,14 +265,17 @@
 				842D1D2823324DCA00ED7506 /* AViewController.swift in Sources */,
 				84077E10233A08470000C8A3 /* XibView.swift in Sources */,
 				846BA6A7233A77BD0073479F /* BuyViewController.swift in Sources */,
+				849BF29B233B56EE00B33C64 /* ExtensionProtocol.swift in Sources */,
 				846BA6A1233A558D0073479F /* ItemCell.swift in Sources */,
 				846BA6A5233A57420073479F /* ShopModel.swift in Sources */,
 				84077E0C233A02A60000C8A3 /* LifecycleViewController.swift in Sources */,
 				845E39EE2338BE9C001111C3 /* ConstraintViewController.swift in Sources */,
 				846BA69C233A54E10073479F /* ShopViewController.swift in Sources */,
+				849BF299233B504300B33C64 /* StringExtension.swift in Sources */,
 				846BA6AA233A7A420073479F /* BuyCell.swift in Sources */,
 				845E39F02338C25C001111C3 /* AnimationViewController.swift in Sources */,
 				842D1D3823324E0B00ED7506 /* BViewController.swift in Sources */,
+				849BF297233B4F5600B33C64 /* ExtensionViewController.swift in Sources */,
 				842D1D2623324DCA00ED7506 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
