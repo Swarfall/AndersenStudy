@@ -14,7 +14,7 @@ protocol ItemCellDelegate: class {
 
 extension ItemCellDelegate {
     func toBuyList(index: Int) {
-        print("nah")
+        print("qwerty")
         print(index)
     }
 }
