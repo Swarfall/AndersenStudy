@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ItemCellDelegate {
+protocol ItemCellDelegate: class {
     func toBuyList(index: Int)
 }
 
@@ -18,7 +18,7 @@ class ItemCell: UITableViewCell {
     @IBOutlet weak var nameItemLabel: UILabel!
     @IBOutlet weak var buyButton: UIButton!
     
-    var delegate: ItemCellDelegate?
+    weak var delegate: ItemCellDelegate?
     var index: Int?
     
     override func awakeFromNib() {
