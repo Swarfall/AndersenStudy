@@ -11,12 +11,17 @@ import UIKit
 class ShopViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var countItemsAddLabel: UILabel!
+    
     
     var shopModel: [ShopModel] = []
     var buyArray: [ShopModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        countItemsAddLabel.layer.cornerRadius = 0.5 * countItemsAddLabel.bounds.size.width
+        countItemsAddLabel.clipsToBounds = true
         
         self.navigationController?.isNavigationBarHidden = true
         tableView.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ItemCell")
@@ -56,5 +61,6 @@ extension ShopViewController: UITableViewDelegate, UITableViewDataSource {
 extension ShopViewController: ItemCellDelegate {
     func toBuyList(index: Int) {
         buyArray.append(shopModel[index])
+        countItemsAddLabel.text = "\(buyArray.count)"
     }
 }

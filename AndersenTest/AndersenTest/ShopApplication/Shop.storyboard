@@ -68,13 +68,26 @@
                                     <constraint firstItem="srv-L9-eDm" firstAttribute="centerX" secondItem="Zrl-6E-PB0" secondAttribute="centerX" id="mie-Ir-4KG"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Be-5I-0e3">
+                                <rect key="frame" x="361" y="44" width="20" height="21"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5PM-x2-DM8"/>
+                                    <constraint firstAttribute="width" constant="20" id="sdM-TN-FMh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Zrl-6E-PB0" firstAttribute="trailing" secondItem="iFE-FN-QAi" secondAttribute="trailing" id="BRR-Eh-c3x"/>
                             <constraint firstItem="Zrl-6E-PB0" firstAttribute="top" secondItem="iFE-FN-QAi" secondAttribute="top" id="CMr-M8-KxP"/>
+                            <constraint firstItem="iFE-FN-QAi" firstAttribute="trailing" secondItem="6Be-5I-0e3" secondAttribute="trailing" constant="33" id="IhS-C3-RJT"/>
                             <constraint firstItem="SG0-39-8lO" firstAttribute="bottom" secondItem="iFE-FN-QAi" secondAttribute="bottom" id="R8f-hJ-ftE"/>
                             <constraint firstItem="SG0-39-8lO" firstAttribute="trailing" secondItem="iFE-FN-QAi" secondAttribute="trailing" id="WKg-Ka-gi2"/>
+                            <constraint firstItem="6Be-5I-0e3" firstAttribute="top" secondItem="iFE-FN-QAi" secondAttribute="top" id="jNd-La-09F"/>
                             <constraint firstItem="SG0-39-8lO" firstAttribute="leading" secondItem="iFE-FN-QAi" secondAttribute="leading" id="lwv-NM-zod"/>
                             <constraint firstItem="Zrl-6E-PB0" firstAttribute="leading" secondItem="iFE-FN-QAi" secondAttribute="leading" id="mR9-ce-lwT"/>
                             <constraint firstItem="SG0-39-8lO" firstAttribute="top" secondItem="Zrl-6E-PB0" secondAttribute="bottom" id="wra-g9-DKs"/>
@@ -83,6 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="uyJ-42-aQM"/>
                     <connections>
+                        <outlet property="countItemsAddLabel" destination="6Be-5I-0e3" id="cwa-H3-Zmc"/>
                         <outlet property="tableView" destination="SG0-39-8lO" id="S4i-GR-eZz"/>
                     </connections>
                 </viewController>
